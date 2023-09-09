@@ -1,0 +1,98 @@
+/* Styles for the navigation bar */
+.navBar {
+  width: 100vw;                     /* Set the width to 100% of the viewport width */
+  background-color: rgb(98, 107, 202); /* Set the background color */
+  color: white;                     /* Set the text color to white */
+  font-size: 24px;                 /* Set the font size to 24 pixels */
+  padding: 5px;                    /* Add 5 pixels of padding */
+  display: flex;                   /* Use flexbox for layout */
+  justify-content: right;          /* Center content horizontally to the right */
+  align-items: center;             /* Center content vertically */
+}
+
+/* Styles for the login button */
+#Login {
+  color: #212529;                  /* Set the text color */
+  border-radius: 5px;              /* Add rounded corners with a 5px radius */
+  font-size: 24px;                 /* Set the font size to 24 pixels */
+  padding: 5px;                    /* Add 5 pixels of padding */
+  margin-right: 1em;               /* Add right margin of 1em (adjust as needed) */
+  cursor: pointer;                 /* Change cursor to a pointer on hover */
+  transition: 0.5s;                /* Apply a 0.5-second transition effect */
+}
+
+/* Styles for the navigation menu */
+nav ul {
+  display: flex;                   /* Use flexbox for layout */
+  flex-direction: row;             /* Arrange items horizontally */
+  justify-content: right;          /* Align content to the right */
+}
+
+nav ul li {
+  list-style-type: none;           /* Remove the default list-style */
+  padding: 10px;                   /* Add 10 pixels of padding */
+  margin-right: 1em;               /* Add right margin of 1em (adjust as needed) */
+}
+
+nav ul li:hover {
+  color: rgba(0, 0, 0, 0.705);      /* Change text color on hover */
+  border-radius: 5px;              /* Add rounded corners with a 5px radius */
+  padding: 5px;                    /* Add 5 pixels of padding */
+  margin-right: 1em;               /* Add right margin of 1em (adjust as needed) */
+  cursor: pointer;                 /* Change cursor to a pointer on hover */
+  transition: 0.5s;                /* Apply a 0.5-second transition effect */
+}
+
+nav ul li:active {
+  background-color: rgb(49, 148, 46); /* Change background color when active */
+}
+
+/* Styles for the welcome section */
+.welcomeSection {
+  text-align: center;              /* Center-align text */
+  text-transform: uppercase;       /* Convert text to uppercase */
+  letter-spacing: 2px;             /* Add letter spacing */
+  background-color: rgb(194, 197, 202); /* Set background color */
+  padding: 1em;                    /* Add 1em (16px) of padding */
+}
+
+/* Styles for the login container */
+.login-container {
+  display: flex;                   /* Use flexbox for layout */
+  flex-direction: row;             /* Arrange items horizontally */
+  padding: 1em;                    /* Add 1em (16px) of padding */
+  width: 100vw;                    /* Set width to 100% of viewport width */
+  background-color: rgb(94, 112, 140); /* Set background color */
+  color: white;                    /* Set the text color to white */
+  font-size: 24px;                 /* Set the font size to 24 pixels */
+  padding: 5px;                    /* Add 5 pixels of padding */
+}
+
+/* Styles for the jokes container */
+.jokes-container {
+  display: flex;                   /* Use flexbox for layout */
+  justify-content: center;         /* Center content horizontally */
+  align-items: center;             /* Center content vertically */
+  min-height: 50vh;                /* Set a minimum height of 50% of the viewport height (adjust as needed) */
+}
+
+/* Style the Jokes container */
+#joke-container {
+  background-color: rgb(94, 112, 140); /* Set background color */
+  color: #212529;                  /* Set text color */
+  font-size: 24px;                 /* Set font size to 24 pixels */
+  padding: 5px;                    /* Add 5 pixels of padding */
+  max-width: 90vw;                 /* Set maximum width to 90% of the viewport width (adjust as needed) */
+  margin: 0 auto;                  /* Center horizontally (left to right) */
+  border-radius: 5px;              /* Add rounded corners with a 5px radius */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+/* Styles for the bordered image */
+.bordered-image {
+  border: 2px solid #007bff;       /* Set border style and color */
+  border-radius: 5px;              /* Add rounded corners with a 5px radius */
+  padding: 5px;                    /* Add 5 pixels of padding */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  /* Additional styles can be added here, such as margin and background color */
+}
